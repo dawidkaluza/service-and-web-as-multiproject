@@ -1,0 +1,4 @@
+rootProject.name = 'simple-service-and-webapp'
+include 'webapp'
+include 'service'
+
