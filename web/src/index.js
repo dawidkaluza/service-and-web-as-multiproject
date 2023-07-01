@@ -10,11 +10,11 @@ const router = createBrowserRouter([
     element: <div>Hello world! Go to /first or /second to se how react router works.</div>,
   },
   {
-    path: "first",
+    path: "/first",
     element: <FirstPage />
   },
   {
-    path: "second",
+    path: "/second",
     element: <SecondPage />
   }
 ]);
