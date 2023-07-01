@@ -30,7 +30,7 @@ tasks.register('copyWebApp', Copy) {
 }
 
 tasks.named('compileJava') {
-    dependsOn(':webapp:npmBuild')
+    dependsOn(':web:npmBuild')
 }
 
 tasks.named('processResources') {

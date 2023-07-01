@@ -1,4 +1,4 @@
-rootProject.name = 'simple-service-and-webapp'
-include 'webapp'
+rootProject.name = 'service-and-web-as-multiproject'
+include 'web'
 include 'service'
 
