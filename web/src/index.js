@@ -1,21 +1,19 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import {FirstPage} from "./FirstPage";
-import {SecondPage} from "./SecondPage";
+import {createBrowserRouter, Link, RouterProvider} from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world! Go to /first or /second to se how react router works.</div>,
+    element: <div>Hello world! Go to <Link to={`/first`}>first</Link> to see how react router works.</div>,
   },
   {
     path: "/first",
-    element: <FirstPage />
+    element: <div>This is /first page. <Link to={'/second'}>Go to /second page.</Link></div>
   },
   {
     path: "/second",
-    element: <SecondPage />
+    element: <div>This is /second page. <Link to={'/second'}>Go to /first page.</Link></div>
   }
 ]);
 
