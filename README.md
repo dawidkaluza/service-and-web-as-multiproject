@@ -1,5 +1,3 @@
-### Simple service and webapp
+# Service and web app as a multi-project
 
-This project shows how simply you can combine webapp build with NPM and service build with Spring into one Gradle multi-project build, thanks to [Gradle Plugin for Node](https://github.com/node-gradle/gradle-node-plugin).
-
-More information and instructions will be added later.
+This project shows how using Gradle you can create a service app built with Java & Spring and include into it a web app built with JS and Node. 
